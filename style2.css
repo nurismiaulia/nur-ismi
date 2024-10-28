@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f9; /* Latar belakang yang lembut */
+    color: #333; /* Warna teks */
+}
+
+/* Header Styling */
+header {
+    background-color: #d681a9; /* Warna latar belakang header */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px; /* Ukuran logo */
+}
+
+h1 {
+    font-size: 2.5rem; /* Ukuran font judul */
+    color: white; /* Warna judul */
+}
+
+.highlight-text {
+    font-size: 1.2rem; /* Ukuran font teks highlight */
+    color: #ffeb3b; /* Warna highlight */
+    margin: 10px 0;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* Jarak antar menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Warna tautan */
+    font-weight: bold;
+    transition: color 0.3s; /* Transisi warna */
+}
+
+nav a:hover {
+    color: #3a042c; /* Warna saat hover */
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px;
+}
+
+.reservasi-section {
+    max-width: 800px; /* Lebar maksimal */
+    margin: 0 auto; /* Pusatkan */
+    background-color: white; /* Latar belakang putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem; /* Ukuran font subjudul */
+    color: #d681a9; /* Warna subjudul */
+    margin-bottom: 15px;
+    text-align: center; /* Pusatkan teks */
+}
+
+/* Form Styling */
+.reservasi-form {
+    display: flex;
+    flex-direction: column; /* Susunan kolom */
+    gap: 15px; /* Jarak antar elemen form */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px; /* Jarak label */
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem; /* Ukuran font input */
+    text-align: left;
+}
+
+.reservasi-button {
+    padding: 10px;
+    background-color: #d681a9; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Ukuran font tombol */
+    transition: background-color 0.3s; /* Transisi warna tombol */
+}
+
+.reservasi-button:hover {
+    background-color: #a6547a; /* Warna tombol saat hover */
+}
+
+/* Table Styling */
+.reservasi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px; /* Turunkan sedikit jarak antar bagian */
+}
+
+.reservasi-table th,
+.reservasi-table td {
+    padding: 15px 12px; /* Padding untuk jarak antar baris */
+    border: 1px solid #ddd;
+    text-align: left;
+    line-height: 1.6; /* Jarak baris */
+}
+
+.reservasi-table th {
+    background-color: #d681a9; /* Warna header tabel */
+    color: white; /* Warna teks header tabel */
+}
+
+.reservasi-table th:first-child,
+.reservasi-table td:first-child {
+    width: 30%; /* Kolom Nama */
+}
+
+.reservasi-table th:nth-child(2),
+.reservasi-table td:nth-child(2) {
+    width: 30%; /* Kolom Layanan */
+}
+
+.reservasi-table th:last-child,
+.reservasi-table td:last-child {
+    width: 40%; /* Kolom Tanggal */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #d681a9; /* Warna footer */
+    color: white; /* Warna teks footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}

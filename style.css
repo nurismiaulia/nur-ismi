@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fdf6f9;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d681a9;
+}
+
+h1 {
+    color: #fdf6f9;
+    margin: 10px 0;
+}
+
+.highlight-text {
+    color: #ffeb3b;
+    font-size: 1.1em; /* Ukuran teks yang sedikit lebih besar untuk kontras */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3a042c;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #d681a9;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.center-text {
+    text-align: center; /* Menempatkan teks di tengah */
+    margin-bottom: 20px; /* Memberikan jarak bawah */
+    font-size: 1em; /* Ukuran teks */
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Agar responsif */
+}
+
+.service {
+    text-align: center;
+    margin: 10px;
+    width: 250px; /* Ukuran tetap untuk setiap layanan */
+}
+
+.service img {
+    width: 100%; /* Menggunakan 100% untuk gambar agar responsif */
+    height: 150px; /* Set tinggi sama untuk semua gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    color: #d681a9;
+    margin-top: 5px;
+    font-size: 1.1em; /* Ukuran teks lebih kecil */
+}
+
+.service-description {
+    font-size: 0.9em; /* Ukuran teks deskripsi lebih kecil */
+    color: #555; /* Warna teks deskripsi */
+    line-height: 1.5; /* Jarak antar baris yang lebih baik */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d681a9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #a6547a; /* Warna tombol saat hover */
+}
+
+footer {
+    background-color: #d681a9;
+    padding: 10px;
+}

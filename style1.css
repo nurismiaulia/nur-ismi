@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fdf6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    height: 100vh; /* Mengatur tinggi menjadi 100% viewport */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d681a9;
+}
+
+.logo {
+    width: 100px; /* Atur ukuran logo */
+    margin-bottom: 10px; /* Jarak bawah logo */
+}
+
+h1 {
+    color: #fdf6f9;
+    margin: 10px 0;
+}
+
+.highlight-text {
+    color: #ffeb3b; 
+    font-size: 1.1em; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s; /* Transisi untuk perubahan warna */
+}
+
+nav ul li a:hover {
+    color: #3a042c; /* Warna teks saat hover */
+}
+
+main {
+    flex: 1; /* Mengizinkan bagian utama mengambil sisa ruang */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Menyelaraskan konten di tengah vertikal */
+}
+
+.login-section {
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang form login */
+    border-radius: 10px; /* Membulatkan sudut form */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk form */
+}
+
+.form-group {
+    margin: 15px 0; /* Memberikan jarak antar input */
+    text-align: center; /* Menyelaraskan teks dan input ke tengah */
+}
+
+input[type="text"], input[type="password"] {
+    width: 250px; /* Lebar input */
+    padding: 10px; /* Padding di dalam input */
+    border: 1px solid #ccc; /* Garis border */
+    border-radius: 5px; /* Membulatkan sudut */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan untuk input */
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #d681a9; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    transition: background-color 0.3s, transform 0.3s; /* Transisi untuk efek hover */
+}
+
+.login-button:hover {
+    background-color: #a6547a; /* Warna latar belakang saat hover */
+    transform: scale(1.05); /* Efek memperbesar saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d681a9;
+}

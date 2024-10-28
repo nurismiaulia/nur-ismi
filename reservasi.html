@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi - Klinik Kecantikan</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo Klinik" class="logo">
+    <h1>Reservasi Klinik Cimi Beauty</h1>
+    <p class="highlight-text">Buat dan kelola reservasi Anda di sini.</p>
+    
+    <!-- Tambahkan Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="reservasi.html">Reservasi</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="reservasi-section">
+        <h2>Formulir Reservasi</h2>
+        <form action="#" method="POST" class="reservasi-form">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="layanan">Layanan:</label>
+                <select id="layanan" name="layanan" required>
+                    <option value="perawatan wajah">Perawatan Wajah</option>
+                    <option value="perawatan rambut">Perawatan Rambut</option>
+                    <option value="perawatan kulit">Perawatan Kulit</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tanggal">Tanggal Reservasi:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="reservasi-button">Buat Reservasi</button>
+            </div>
+        </form>
+
+        <h2>Daftar Reservasi</h2>
+        <table class="reservasi-table">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Layanan</th>
+                    <th>Tanggal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pung fila</td>
+                    <td>perawatan kulit</td>
+                    <td>2024-10-30</td>
+                </tr>
+                <tr>
+                    <td>niar</td>
+                    <td>perawatan muka</td>
+                    <td>2024-11-01</td>
+                </tr>
+                <tr>
+                    <td>wulan</td>
+                    <td>perawatan rambut</td>
+                    <td>2024-12-01</td>
+                </tr>
+                <!-- Tambahkan baris reservasi lainnya sesuai kebutuhan -->
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Klinik Kecantikan</p>
+</footer>
+
+</body>
+</html>
